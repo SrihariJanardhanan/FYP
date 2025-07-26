@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+FakeReviewDetector/backend/venv/
+
+# Python Files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Large Model Files
+*.pkl
+*.joblib
+*.h5
+*.model
+model/
+models/
+
+# Dataset Files
+dataset/
+data/
+*.csv
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
